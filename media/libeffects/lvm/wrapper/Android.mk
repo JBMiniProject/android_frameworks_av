@@ -10,6 +10,7 @@ LOCAL_SRC_FILES:= \
 	Bundle/EffectBundle.cpp
 
 LOCAL_MODULE:= libbundlewrapper
+LOCAL_MODULE_TAGS := optional
 
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/soundfx
 
