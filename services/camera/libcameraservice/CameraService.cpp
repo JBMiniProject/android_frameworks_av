@@ -333,7 +333,7 @@ void CameraService::loadSound() {
     if (mSoundRef++) return;
 
     char value[PROPERTY_VALUE_MAX];
-    property_get("persist.camera.shutter.disable", value, "0");
+    property_get("persist.sys.camera-mute", value, "0");
     int disableSound = atoi(value);
 
     if(!disableSound) {
